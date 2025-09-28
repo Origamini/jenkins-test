@@ -1,6 +1,6 @@
 ---
 - name: Insall Apache on ubuntu
-  hosts: localhost
+  hosts: worker
   become: yes
   tasks:
     - name: Update cache
